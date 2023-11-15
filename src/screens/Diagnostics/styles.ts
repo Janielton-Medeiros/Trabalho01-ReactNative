@@ -7,13 +7,15 @@ container: {
     alignItems: 'center', 
     justifyContent: 'center',
     paddingHorizontal: 30,
+  
+    
 },
 navBarCima:{
     flexDirection: 'row',
     justifyContent:'center',
     alignItems: 'center',
     backgroundColor: '#161B21',
-    padding: 15,
+    padding: 10,
     position: 'absolute', 
     top: 0, // Mudança para o topo
     left: 0, 
@@ -40,12 +42,13 @@ cardCentral: {
     backgroundColor: '#161B21',
     borderRadius: 10,
     padding: 5,
+    bottom: -20,
     margin: 26,
     borderWidth: 2, 
     borderColor: '#4A4F55',
     justifyContent: 'center',
     marginHorizontal: -18, // Ajustado para espaçamento horizontal
-    marginVertical: 8, // Ajustado para espaçamento vertical
+    marginVertical: 10, // Posição abaixo da navbar
 },
 seta:{
 
