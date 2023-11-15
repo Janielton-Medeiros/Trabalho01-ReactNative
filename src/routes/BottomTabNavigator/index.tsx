@@ -54,15 +54,10 @@ export const BottomTabRoutes = () => {
  		tabBarLabel: () => null,
 		tabBarButton: () => null
 	
-
-		
-			
-			
 		}} 
 		name="TelaLoading" 
 		component={TelaLoading} 
-		
-		
+
 	/>
 
 
