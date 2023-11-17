@@ -3,28 +3,21 @@ import { StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#161B21',
         alignItems: 'center',
         justifyContent: 'center',
         paddingHorizontal: 30,
     },
     image: {
-        width: 70,
-        height: 60,
-        bottom: 40,
+        width: 80,
+        height: 70,
+        bottom: 70,
     },
     title: {
         fontSize: 25,
         fontWeight: 'bold',
-        color: '#45454533',
+        color: 'white',
         position: 'absolute',
-        bottom: 30,
-        right: 150,
-    },
-    icon: {
-        position: 'absolute',
-        bottom: 30,
-        right: 210,
-        alignSelf: 'center',
+
     },
 });

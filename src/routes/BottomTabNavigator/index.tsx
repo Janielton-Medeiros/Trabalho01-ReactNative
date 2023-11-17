@@ -2,7 +2,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Home } from '../../screens/Home';
 import { TelaLoading } from '../../screens/TelaLoading';
 import { Diagnostics } from '../../screens/Diagnostics';
-import { Settings } from 'react-native';
+import { Settings } from '../../screens/Settings';
 import { Foundation, MaterialCommunityIcons, Ionicons } from '@expo/vector-icons';
 
 
@@ -12,9 +12,10 @@ export const BottomTabRoutes = () => {
   return (
     <Tab.Navigator initialRouteName='TelaLoading' screenOptions={{
 		headerShown: false,
-		tabBarStyle: { backgroundColor: '#161B21', paddingBottom: 4 },
+		tabBarStyle: { backgroundColor: '#161B21', paddingBottom: 2, borderTopWidth: 1,borderTopColor: '#000000'  },
 		tabBarInactiveTintColor: '#a9a9a9',
-		tabBarActiveTintColor: '#A499EA'
+		tabBarActiveTintColor: '#A499EA',
+		
 	}}>
 
 	<Tab.Screen 
@@ -44,7 +45,7 @@ export const BottomTabRoutes = () => {
 			)) 
 		}} 
 		name="Settings" 
-		component={Home} 
+		component={Settings} 
 	/>
 	<Tab.Screen 
 		

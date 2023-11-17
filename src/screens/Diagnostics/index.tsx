@@ -1,6 +1,5 @@
 import { Text, View } from 'react-native';
 import { styles } from './styles';
-import { NavBar } from '../../components/NavBar';
 import { AntDesign } from '@expo/vector-icons';
 
 
